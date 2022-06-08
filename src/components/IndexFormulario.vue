@@ -25,7 +25,7 @@
               El campo tiene como mínimo {{minNomLength}} y como máximo {{maxNomLength}} caracteres.
             </div>
             <div slot="no-espacios" class="alert alert-danger mt-1">
-              El campo tiene no permite espacios intermedios.
+              El campo no permite espacios intermedios.
             </div>     
           </field-messages> 
         </validate>        
@@ -51,7 +51,7 @@
               El campo tiene como mínimo {{minNomLength}} y como máximo {{maxNomLength}} caracteres.
             </div>     
             <div slot="no-espacios" class="alert alert-danger mt-1">
-              El campo tiene no permite espacios intermedios.
+              El campo no permite espacios intermedios.
             </div>             
           </field-messages> 
         </validate>
@@ -73,10 +73,10 @@
           <field-messages name="nota" show="$dirty">
             <div slot="required" class="alert alert-danger mt-1">Campo requerido</div>
             <div slot="min" class="alert alert-danger mt-1">
-              La nota minimia permitida es de {{notaMin}}
+              La nota minimia permitida es {{notaMin}}
             </div>
             <div slot="max" class="alert alert-danger mt-1">
-              La nota máxima permitida es de {{notaMax}}
+              La nota máxima permitida es {{notaMax}}
             </div>
           </field-messages> 
         </validate>
